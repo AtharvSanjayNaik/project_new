@@ -9,7 +9,7 @@ it would have done instead of failing or faking a successful deployment.
 import os
 from huggingface_hub import HfApi, create_repo
 
-HF_USERNAME = os.getenv("HF_USERNAME", "<your-hf-username>")
+HF_USERNAME = os.getenv("HF_USERNAME", "ASNaik")
 SPACE_REPO_ID = f"{HF_USERNAME}/tourism-wellness-package-app"
 DEPLOYMENT_DIR = "tourism_project/deployment"
 
