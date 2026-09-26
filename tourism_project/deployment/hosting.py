@@ -26,7 +26,7 @@ def main():
 
     api = HfApi(token=token)
     create_repo(
-        repo_id=SPACE_REPO_ID, repo_type="space", space_sdk="docker",
+        repo_id=SPACE_REPO_ID, repo_type="space", space_sdk="streamlit",
         token=token, exist_ok=True,
     )
     api.upload_folder(
